@@ -1,0 +1,243 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "fr"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = ""
+    description = ""
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+    [params.profile]
+        enable = true
+        name = "Lior DILER"
+        tagline = "Développeur Full Stack"
+        avatar = "image.png"
+
+    [params.summary]
+        enable = true
+        text = "Au travers d’expériences et grâce à mes 5 ans d’études en programmation, j’ai pu trouver comment allier passion, formation et travail. Je suis donc désireuse de travailler dans la conception de logiciels et leur architecture."
+
+
+    [params.contact]
+        enable = true
+        location = "Paris - France"
+
+        [[params.contact.list]]
+        style = "fas"
+        icon = "fa-phone-square"
+        url = "tel:#"
+        text = "+33 6 48 23 58 60"
+        [[params.contact.list]]
+        style = "fas"
+        icon = "fa-envelope-square"
+        url = "mailto:#"
+        text = "diler.lior@gmail.com"
+
+    [params.skills]
+        enable = true
+
+    [[params.skills.list]]
+    title = ""
+    [[params.skills.list.items]]
+    details = "Auto apprentissage"
+    [[params.skills.list.items]]
+    details = "Autonome"
+    [[params.skills.list.items]]
+    details = "Curieux"
+    [[params.skills.list.items]]
+    details = "Sérieux"
+
+
+
+    [params.education]
+        enable = true
+	[[params.education.list]]
+        degree = "Master de chef de projet logiciel et réseaux"
+        university = "ESGI Paris"
+        dates = "2020 - 2022"
+	[[params.education.list]]
+        degree = "Bachelor de chef de projet logiciel et réseaux"
+        university = "ESGI Paris"
+        dates = "2019 - 2020"
+    [[params.education.list]]
+        degree = "BTS Services Informatiques aux Oragnisations SLAM"
+        university = "CFA Insta"
+        dates = "2017 - 2019"
+	[[params.education.list]]
+        degree = "Baccalauréat de Sciences et Technologie de Laboratoire"
+        university = "Lycée Ecole Technique Supérieur du Laboratoire"
+        dates = "2016 - 2017"
+	
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Français"
+        level = "Langue maternelle"
+        [[params.languages.list]]
+        name = "Anglais"
+        level = "Bilingue"
+	[[params.languages.list]]
+        name = "Turc"
+        level = "Courant"
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Maquillage SFX"
+        [[params.interests.list]]
+        name = "Animatronics"
+        [[params.interests.list]]
+        name = "Modélisation 3D"
+        [[params.interests.list]]
+        name = "Jeux en réalité virtuelle"
+	    [[params.interests.list]]
+        name = "Lecture en version originale"
+
+    [params.status]
+        enable = true
+        [[params.status.list]]
+        name = "Maquillage SFX"
+
+
+    [params.projects]
+        enable = true
+	[[params.projects.list]]
+        title = "Contribution au concours de recherche du SIGGRAPH (C++, C#)"
+	    tagline = "Invention du Rollback Hybrid Netcode, une amélioration pour les jeux en lignes avec une IA de machine learning. "
+
+	[[params.projects.list]]
+        title = "Création de cours sur l'immersion en Réalité Virtuelle grâce à l'audio binaural (C++, C#)"
+	    tagline = "Support écrit et vidéo ainsi qu'implémentation de projets en réalité virtuelle."
+
+	[[params.projects.list]]
+        title = "Application de traitement d'image (C++)"
+	    tagline ="TODO"
+
+	[[params.projects.list]]
+        title = "Algorithme génétique pour animation procédurale (C#, Python)"
+        tagline = "TODO"
+
+	[[params.projects.list]]
+        title = "Intelligence Artificiels pour jeux vidéos (C#, C++)"
+        tagline = "TODO"
+
+    [[params.projects.list]]
+        title = "Moteur de lancement de rayon (C++)"
+        tagline = "TODO"
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Développeur Fullstack"
+        dates = "Octobre 2019 - Août 2022"
+        company = "Inria"
+        details = "Environnement technique: Linux, Docker, NodeJS, React, MongoDB, Gitlab-ci, Nginx"
+
+            [[params.experience.list.items]]
+            details = "Conception de l'architecture du Logiciel."
+            [[params.experience.list.items]]
+            details = "Développement de l'application (back-end et front end)."
+            [[params.experience.list.items]]
+            details = "Test unitaires pour l'application."
+            [[params.experience.list.items]]
+            details = "Déploiement automatique."
+            [[params.experience.list.items]]
+            details = "Gestion de la sécurité de l'application"
+            [[params.experience.list.items]]
+            details = "Génération et déploiement automatique du code"
+        
+        [[params.experience.list]]
+        title = "Développeur R&D en Robotique"
+        dates = "Juin 2017 - août 2019"
+        company = "Teamnet"
+        [[params.experience.list.items]]
+        details = "Création d'un Chatbot linguistique."
+        [[params.experience.list.items]]
+        details = "Développement du back-end (Api, programme, BDD...)."
+        [[params.experience.list.items]]
+        details = "Mise en place de Docker."
+        [[params.experience.list.items]]
+        details = "Gestion de la base de données."
+        [[params.experience.list.items]]
+        details = "Environnement technique: Java Spring, Linux, MYSQL, Git, Jenkins, Sonar"
+
+
+
+    [params.information]
+        enable = true
+        [[params.information.list]]
+
+	[[params.information.list]]
+        title = "Compétences Techniques"
+        [[params.information.list.items]]
+        details = "Langages : C, C#, C++, Java, Javascript, Python, Android, HTML, CSS..."
+        [[params.information.list.items]]
+        details = "Base de données : MySQL, MongoDB"
+        [[params.information.list.items]]
+        details = "Systèmes : Linux, Windows, Android, MacOs"
+	    [[params.information.list.items]]
+        details = "IDE et Frameworks : Node.js, React, Express, JetBrains, Angular, Eclipse"
+        [[params.information.list.items]]
+        details = "Outils : Docker, Github, Gitlab, Unity, Unreal Engine, Nginx"
+
+
+	#[[params.information.list]]
+        #title = "Participation à la gestion de projets informatiques en alternance chez RTE"
+	#details = "Septembre 2017 - août 2019"
+
+	#[[params.information.list.items]]
+        #details = "En contrat d'alternance pour 2 ans en vue d'un BTS SIO (Services Informatiques aux Organisations) au sein du pôle 'Système d'information des Achats' de RTE."
+	#[[params.information.list.items]]
+	#details = "Référente GCP module SAP et valideuse achat pour le référentiel fournisseur de RTE."
+	#[[params.information.list.items]]
+	#details = "Gestion des évolutions GCP selon les besoins utilisateurs."
+	#[[params.information.list.items]]
+	#details = "Administratrice des outils du SI achats de la Direction des achats et en charge des habilitations sur les différentes applications."
+	#[[params.information.list.items]]
+	#details = "Automatisation de processus grâce à Visual Basic. Mise en place de documentation utilisateur."
+
+
+
+    [params.social]
+        enable = true
+
+    [[params.social.list]]
+        style = "fab"
+        icon = "fa-github-square"
+        url = "https://github.com/Pinklady01"
+	    title = "Github - Pinklady01 "
+	[[params.social.list]]
+	    icon = "fa-github-square"
+        style = "fab"
+	    url = "https://gitlab.com/Pinklady"
+        title = "Gitlab - Pinklady "
+    [[params.social.list]]
+        style = "fab"
+        icon = "fa-linkedin"
+        url = "https://www.linkedin.com/in/lior-diler-b32b7a149/"
+        title = "Lior DILER"
+	
+
+
+
+
+
