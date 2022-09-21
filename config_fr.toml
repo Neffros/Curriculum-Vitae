@@ -167,17 +167,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Environnement technique: Linux, Docker, NodeJS, React, MongoDB, Gitlab-ci, Nginx"
 
             [[params.experience.list.items]]
-            details = "Conception de l'architecture du Logiciel."
+            details = "Conception de l'architecture du Logiciel"
             [[params.experience.list.items]]
-            details = "Développement de l'application (back-end et front end)."
+            details = "Développement de l'application (back-end et front end)"
             [[params.experience.list.items]]
-            details = "Test unitaires pour l'application."
+            details = "Test unitaires pour l'application"
             [[params.experience.list.items]]
-            details = "Déploiement automatique."
+            details = "Déploiement automatique"
             [[params.experience.list.items]]
-            details = "Gestion de la sécurité de l'application."
+            details = "Gestion de la sécurité de l'application"
             [[params.experience.list.items]]
-            details = "Génération de documentation automatique."
+            details = "Génération de documentation automatique"
         
         [[params.experience.list]]
         title = "Développeur R&D en Robotique"
@@ -185,13 +185,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "Teamnet"
         details = "Environnement technique: Java Spring, Linux, MYSQL, Git, Jenkins, Sonar"
         [[params.experience.list.items]]
-        details = "Création d'un Chatbot linguistique."
+        details = "Création d'un Chatbot linguistique"
         [[params.experience.list.items]]
-        details = "Développement du back-end (Api, programme, BDD...)."
+        details = "Développement du back-end (API, programme, BDD...)"
         [[params.experience.list.items]]
-        details = "Mise en place de Docker."
+        details = "Mise en place de Docker"
         [[params.experience.list.items]]
-        details = "Gestion de la base de données."
+        details = "Gestion de la base de données"
 
 
 
@@ -200,9 +200,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list]]
 
 	[[params.information.list]]
-        title = "Compétences Techniques"
+        title = ""
         [[params.information.list.items]]
-        details = "Langages : C#, C++, C, Java, Javascript, Python, Android..."
+        details = "Langages : C#, C++, C, Java, Javascript, Python, Android"
         [[params.information.list.items]]
         details = "Base de données : SQL, MongoDB"
         [[params.information.list.items]]

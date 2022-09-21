@@ -24,7 +24,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.summary]
         enable = true
         #text = "From my passion, professionnal experience and studiesAcross my professionnal experiences and thanks to my 5 years of #programming school, I have found how to unite passion, work and studies. I desire to work in programming."
-        text = "[sentence or two that says that i have xp and i'm passionate]"
+        text = "[sentence or two that says that i have xp and i'm passionate and willing to learn even languages i don't master yet]"
     [params.contact]
         enable = true
         location = "Paris - France"
@@ -47,7 +47,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     title = ""
 
     [[params.skills.list.items]]
-    details = "Autonomous"
+    details = "Self-motivated"
     [[params.skills.list.items]]
     details = "Curious"
     [[params.skills.list.items]]
@@ -68,7 +68,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         university = "ESGI Paris"
         dates = "2019 - 2020"
     [[params.education.list]]
-        degree = "International business studies degree in IT"
+        degree = "Advanced technician's diploma in IT"
         university = "CFA Insta"
         dates = "2017 - 2019"
 	[[params.education.list]]
@@ -102,10 +102,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.interests.list]]
         name = "Video game competitions"
 
-    [params.status]
-        enable = true
-        [[params.status.list]]
-        name = "Recognition of Handicapped Worker Status"
+    #[params.status]
+     #   enable = true
+      #  [[params.status.list]]
+       # name = "Recognized as a handicapped worker"
 
 
     [params.projects]
@@ -115,67 +115,67 @@ googleAnalytics = "UA-XXXXXXX-Y"
 	    #tagline = "Invention du Rollback Hybrid Netcode, une amélioration pour les jeux en lignes avec une IA de machine learning. "
 
 	[[params.projects.list]]
-        title = "Creation of courses on immersion in Virtual Reality with binaural audio (C#, C)"
+        title = "Creation of courses on immersion in Virtual Reality with Binaural Audio (C#, C)"
 	    #tagline = "Support écrit et vidéo ainsi qu'implémentation de projets en réalité virtuelle."
 
 	[[params.projects.list]]
-        title = "Implementation of a Machine Learning library  (C++)"
+        title = "Implementation of a Machine Learning Library  (C++)"
         #tagline = "TODO"
 	[[params.projects.list]]
-        title = "Genetic algorithm for procedural animation(C#, Python, Unity, Blender)"
-        #tagline = "TODO"
-
-	[[params.projects.list]]
-        title = "Artificial intelligence for video games (C#, C++)"
+        title = "Genetic Algorithm for Procedural Animation (C#, Python, Unity, Blender)"
         #tagline = "TODO"
 
 	[[params.projects.list]]
-        title = "Image processing applications (C++, openCV)"
+        title = "Artificial Intelligence for Video Games (C#, C++)"
+        #tagline = "TODO"
+
+	[[params.projects.list]]
+        title = "Image Processing Applications (C++, openCV)"
 	    #tagline ="TODO"
 
     [[params.projects.list]]
-        title = "Ray-tracing engine (C++)"
+        title = "Ray-tracing Engine (C++)"
         #tagline = "TODO"
 
     [[params.projects.list]]
-        title = "2D game engine (C++)"
+        title = "2D Game Engine (C++)"
 
 	[[params.projects.list]]
-        title = "Compute Shader for particle generation (C#, Shader)"
+        title = "Compute Shader for Particle Generation (C#, Shader)"
 
     [[params.projects.list]]
-        title = "Development of a real-time strategy game (C#, Unity)"
+        title = "Development of a Real-time Strategy Game (C#, Unity)"
 
     [[params.projects.list]]
-        title = "Development of a pathfinding game (C++, Unreal Engine)"
+        title = "Development of a Pathfinding Game (C++, Unreal Engine)"
 
     [[params.projects.list]]
-        title = "Generation of Bézier curves (C#, Unity)"
+        title = "Generation of Bézier Curves (C#, Unity)"
 
     [[params.projects.list]]
-        title = "Procedural rendering (WebGL, Blender)"
+        title = "Procedural Rendering (WebGL, Blender)"
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
         title = "Full Stack Developer"
-        dates = "Octobre 2019 - August 2022"
+        dates = "October 2019 - August 2022"
         company = "Inria"
         details = "Technical Environment: Linux, Docker, NodeJS, React, MongoDB, Gitlab-ci, Nginx"
 
             [[params.experience.list.items]]
-            details = "Software architecture design."
+            details = "Software architecture design"
             [[params.experience.list.items]]
-            details = "Application development (back-end and front-end)."
+            details = "Application development (backend and frontend)"
             [[params.experience.list.items]]
-            details = "Unit testing for the application."
+            details = "Unit testing"
             [[params.experience.list.items]]
-            details = "Automatic deployment."
+            details = "Automatic deployment"
             [[params.experience.list.items]]
-            details = "Application security management."
+            details = "Application security management"
             [[params.experience.list.items]]
-            details = "Automatic documentation generation."
+            details = "Automatic documentation generation"
         
         [[params.experience.list]]
         title = "R&D Developer in Robotics"
@@ -183,13 +183,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "Teamnet"
         details = "Technical Environment: Java Spring, Linux, MYSQL, Git, Jenkins, Sonar"
         [[params.experience.list.items]]
-        details = "Creation of a linguistic Chatbot."
+        details = "Creation of a linguistic Chatbot"
         [[params.experience.list.items]]
-        details = "Development of the back-end (Api, program, database...)."
+        details = "Development of the backend (API, program, database...)"
         [[params.experience.list.items]]
-        details = "Setting up Docker."
+        details = "Setting up Docker"
         [[params.experience.list.items]]
-        details = "Database management."
+        details = "Database management"
 
 
     [params.information]
@@ -197,17 +197,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list]]
 
 	[[params.information.list]]
-        title = "Compétences Techniques"
+        title = ""
         [[params.information.list.items]]
-        details = "Langages : C#, C++, C, Java, Javascript, Python, Android..."
+        details = "Languages: C#, C++, C, Java, Javascript, Python, Android"
         [[params.information.list.items]]
-        details = "Base de données : SQL, MongoDB"
+        details = "Database: SQL, MongoDB"
         [[params.information.list.items]]
-        details = "Systèmes : Linux, Windows, Android, MacOs"
+        details = "Systems: Linux, Windows, Android, MacOS"
 	    [[params.information.list.items]]
         details = "Frameworks : Node.js, React, Express, Nginx, OpenGL, Shader"
         [[params.information.list.items]]
-        details = "Outils : Docker, Github, Gitlab, Unity, Unreal Engine, Blender, Houdini"
+        details = "Tools: Docker, Github, Gitlab, Unity, Unreal Engine, Blender, Houdini"
 
 
 	#[[params.information.list]]
