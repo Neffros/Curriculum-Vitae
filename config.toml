@@ -19,11 +19,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         name = "Lior DILER"
         tagline = "Développeur Full Stack"
-        avatar = "image.png"
+        avatar = "profile2.png"
 
     [params.summary]
         enable = true
-        text = "Au travers d’expériences et grâce à mes 5 ans d’études en programmation, j’ai pu trouver comment allier passion, formation et travail. Je suis donc désireuse de travailler dans la conception de logiciels et leur architecture."
+        text = "Au travers de mes expériences professionnels et grâce à mes 5 ans d’études en programmation, j’ai pu trouver comment allier passion, formation et travail. Je suis donc désireux de travailler dans le développement informatique."
 
 
     [params.contact]
@@ -46,14 +46,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [[params.skills.list]]
     title = ""
-    [[params.skills.list.items]]
-    details = "Auto apprentissage"
+
     [[params.skills.list.items]]
     details = "Autonome"
     [[params.skills.list.items]]
     details = "Curieux"
     [[params.skills.list.items]]
     details = "Sérieux"
+
+    [[params.skills.list.items]]
+    details = "Pasionné"
 
 
 
@@ -85,7 +87,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         level = "Langue maternelle"
         [[params.languages.list]]
         name = "Anglais"
-        level = "Bilingue"
+        level = "Langue maternelle"
 	[[params.languages.list]]
         name = "Turc"
         level = "Courant"
@@ -111,28 +113,49 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.projects]
         enable = true
 	[[params.projects.list]]
-        title = "Contribution au concours de recherche du SIGGRAPH (C++, C#)"
-	    tagline = "Invention du Rollback Hybrid Netcode, une amélioration pour les jeux en lignes avec une IA de machine learning. "
+        title = "Contribution au concours de recherche SIGGRAPH, Rollback Hybrid Netcode (C++, C#)"
+	    #tagline = "Invention du Rollback Hybrid Netcode, une amélioration pour les jeux en lignes avec une IA de machine learning. "
 
 	[[params.projects.list]]
-        title = "Création d'un cours sur l'immersion en Réalité Virtuelle grâce à l'audio binaural (C++, C#)"
-	    tagline = "Support écrit et vidéo ainsi qu'implémentation de projets en réalité virtuelle."
+        title = "Création de cours sur l'immersion en Réalité Virtuelle grâce à l'audio binaural (C#, C)"
+	    #tagline = "Support écrit et vidéo ainsi qu'implémentation de projets en réalité virtuelle."
 
 	[[params.projects.list]]
-        title = "Application de traitement d'image (C++)"
-	    tagline ="TODO"
-
+        title = "Implémentation d'une librairie de Machine Learning (C++)"
+        #tagline = "TODO"
 	[[params.projects.list]]
-        title = "Algorithme génétique pour animation procédurale (C#, Python)"
-        tagline = "TODO"
+        title = "Algorithme génétique pour animation procédurale (C#, Python, Unity, Blender)"
+        #tagline = "TODO"
 
 	[[params.projects.list]]
         title = "Intelligence Artificiels pour jeux vidéos (C#, C++)"
-        tagline = "TODO"
+        #tagline = "TODO"
+
+	[[params.projects.list]]
+        title = "Applications de traitement d'image (C++)"
+	    #tagline ="TODO"
 
     [[params.projects.list]]
         title = "Moteur de lancement de rayon (C++)"
-        tagline = "TODO"
+        #tagline = "TODO"
+
+    [[params.projects.list]]
+        title = "Moteur de jeux 2D (C++)"
+
+	[[params.projects.list]]
+        title = "Compute Shader de génération de particules (C#, Shader)"
+
+    [[params.projects.list]]
+        title = "Développement d'un jeu de stratégie en temps réel (C#, Unity)"
+
+    [[params.projects.list]]
+        title = "Développement d'un jeu de pathfinding (C++, Unreal Engine)"
+
+    [[params.projects.list]]
+        title = "Génération de courbes de Bézier (C#, Unity)"
+
+    [[params.projects.list]]
+        title = "Rendu procédurale (WebGL, Blender)"
 
     [params.experience]
         enable = true
@@ -185,7 +208,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list.items]]
         details = "Systèmes : Linux, Windows, Android, MacOs"
 	    [[params.information.list.items]]
-        details = "Frameworks : Node.js, React, Express, Nginx, OpenGL"
+        details = "Frameworks : Node.js, React, Express, Nginx, OpenGL, Shader"
         [[params.information.list.items]]
         details = "Outils : Docker, Github, Gitlab, Unity, Unreal Engine, Blender, Houdini"
 
@@ -213,18 +236,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [[params.social.list]]
         style = "fab"
         icon = "fa-github-square"
-        url = "https://github.com/Pinklady01"
-	    title = "Github - Pinklady01 "
-	[[params.social.list]]
-	    icon = "fa-github-square"
-        style = "fab"
-	    url = "https://gitlab.com/Pinklady"
-        title = "Gitlab - Pinklady "
+        url = "https://github.com/Neffros"
+	    title = "Github"
     [[params.social.list]]
         style = "fab"
         icon = "fa-linkedin"
         url = "https://www.linkedin.com/in/lior-diler-b32b7a149/"
-        title = "Lior DILER"
+        title = "Linkedin"
 	
 
 
