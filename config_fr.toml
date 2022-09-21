@@ -1,7 +1,7 @@
 # Page settings
 
 baseURL = "http://example.org/"
-languageCode = "en"
+languageCode = "fr"
 title = ""
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
@@ -18,13 +18,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Lior DILER"
-        tagline = "Full Stack Developer"
+        tagline = "Développeur Full Stack"
         avatar = "profile2.png"
 
     [params.summary]
         enable = true
-        #text = "From my passion, professionnal experience and studiesAcross my professionnal experiences and thanks to my 5 years of #programming school, I have found how to unite passion, work and studies. I desire to work in programming."
-        text = "[sentence or two that says that i have xp and i'm passionate]"
+        text = "Au travers de mes expériences professionnels et grâce à mes 5 ans d’études en programmation, j’ai pu trouver comment allier passion, formation et travail. Je suis donc désireux de travailler dans le développement informatique."
+
+
     [params.contact]
         enable = true
         location = "Paris - France"
@@ -47,32 +48,33 @@ googleAnalytics = "UA-XXXXXXX-Y"
     title = ""
 
     [[params.skills.list.items]]
-    details = "Autonomous"
+    details = "Autonome"
     [[params.skills.list.items]]
-    details = "Curious"
+    details = "Curieux"
     [[params.skills.list.items]]
-    details = "Serious"
+    details = "Sérieux"
+
     [[params.skills.list.items]]
-    details = "Passionate"
+    details = "Pasionné"
 
 
 
     [params.education]
         enable = true
 	[[params.education.list]]
-        degree = "Master's degree in software and network project management"
+        degree = "Master de chef de projet logiciel et réseaux"
         university = "ESGI Paris"
         dates = "2020 - 2022"
 	[[params.education.list]]
-        degree = "Bachelor's degree in software and network project management"
+        degree = "Bachelor de chef de projet logiciel et réseaux"
         university = "ESGI Paris"
         dates = "2019 - 2020"
     [[params.education.list]]
-        degree = "International business studies degree in IT"
+        degree = "BTS Services Informatiques aux Oragnisations SLAM"
         university = "CFA Insta"
         dates = "2017 - 2019"
 	[[params.education.list]]
-        degree = "High school diploma in Laboratory Sciences"
+        degree = "Baccalauréat de Sciences et Technologie de Laboratoire"
         university = "Lycée Ecole Technique Supérieur du Laboratoire"
         dates = "2016 - 2017"
 	
@@ -80,15 +82,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.languages]
         enable = true
 
-    [[params.languages.list]]
-        name = "French"
-        level = "Native language"
-    [[params.languages.list]]
-        name = "English"
-        level = "Native language"
+        [[params.languages.list]]
+        name = "Français"
+        level = "Langue maternelle"
+        [[params.languages.list]]
+        name = "Anglais"
+        level = "Langue maternelle"
 	[[params.languages.list]]
-        name = "Turkish"
-        level = "Fluent"
+        name = "Turc"
+        level = "Courant"
 
 
 
@@ -96,100 +98,101 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "Music"
+        name = "Musique"
         [[params.interests.list]]
-        name = "Travelling"
+        name = "Voyages"
         [[params.interests.list]]
-        name = "Video game competitions"
+        name = "Compétitions de jeux vidéos"
 
     [params.status]
         enable = true
         [[params.status.list]]
-        name = "Recognition of Handicapped Worker Status"
+        name = "Reconnaissance de la Qualité de Travailleur Handicapé (RQTH)"
 
 
     [params.projects]
         enable = true
 	[[params.projects.list]]
-        title = "Contribution to the SIGGRAPH research competition, Rollback Hybrid Netcode (C++, C#)"
+        title = "Contribution au concours de recherche SIGGRAPH, Rollback Hybrid Netcode (C++, C#)"
 	    #tagline = "Invention du Rollback Hybrid Netcode, une amélioration pour les jeux en lignes avec une IA de machine learning. "
 
 	[[params.projects.list]]
-        title = "Creation of courses on immersion in Virtual Reality with binaural audio (C#, C)"
+        title = "Création de cours sur l'immersion en Réalité Virtuelle grâce à l'audio binaural (C#, C)"
 	    #tagline = "Support écrit et vidéo ainsi qu'implémentation de projets en réalité virtuelle."
 
 	[[params.projects.list]]
-        title = "Implementation of a Machine Learning library  (C++)"
+        title = "Implémentation d'une librairie de Machine Learning (C++)"
         #tagline = "TODO"
 	[[params.projects.list]]
-        title = "Genetic algorithm for procedural animation(C#, Python, Unity, Blender)"
-        #tagline = "TODO"
-
-	[[params.projects.list]]
-        title = "Artificial intelligence for video games (C#, C++)"
+        title = "Algorithme génétique pour animation procédurale (C#, Python, Unity, Blender)"
         #tagline = "TODO"
 
 	[[params.projects.list]]
-        title = "Image processing applications (C++, openCV)"
+        title = "Intelligence Artificiels pour jeux vidéos (C#, C++)"
+        #tagline = "TODO"
+
+	[[params.projects.list]]
+        title = "Applications de traitement d'image (C++, openCV)"
 	    #tagline ="TODO"
 
     [[params.projects.list]]
-        title = "Ray-tracing engine (C++)"
+        title = "Moteur de lancement de rayon (C++)"
         #tagline = "TODO"
 
     [[params.projects.list]]
-        title = "2D game engine (C++)"
+        title = "Moteur de jeux 2D (C++)"
 
 	[[params.projects.list]]
-        title = "Compute Shader for particle generation (C#, Shader)"
+        title = "Compute Shader de génération de particules (C#, Shader)"
 
     [[params.projects.list]]
-        title = "Development of a real-time strategy game (C#, Unity)"
+        title = "Développement d'un jeu de stratégie en temps réel (C#, Unity)"
 
     [[params.projects.list]]
-        title = "Development of a pathfinding game (C++, Unreal Engine)"
+        title = "Développement d'un jeu de pathfinding (C++, Unreal Engine)"
 
     [[params.projects.list]]
-        title = "Generation of Bézier curves (C#, Unity)"
+        title = "Génération de courbes de Bézier (C#, Unity)"
 
     [[params.projects.list]]
-        title = "Procedural rendering (WebGL, Blender)"
+        title = "Rendu procédurale (WebGL, Blender)"
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "Full Stack Developer"
-        dates = "Octobre 2019 - August 2022"
+        title = "Développeur Fullstack"
+        dates = "Octobre 2019 - Août 2022"
         company = "Inria"
-        details = "Technical Environment: Linux, Docker, NodeJS, React, MongoDB, Gitlab-ci, Nginx"
+        details = "Environnement technique: Linux, Docker, NodeJS, React, MongoDB, Gitlab-ci, Nginx"
 
             [[params.experience.list.items]]
-            details = "Software architecture design."
+            details = "Conception de l'architecture du Logiciel."
             [[params.experience.list.items]]
-            details = "Application development (back-end and front-end)."
+            details = "Développement de l'application (back-end et front end)."
             [[params.experience.list.items]]
-            details = "Unit testing for the application."
+            details = "Test unitaires pour l'application."
             [[params.experience.list.items]]
-            details = "Automatic deployment."
+            details = "Déploiement automatique."
             [[params.experience.list.items]]
-            details = "Application security management."
+            details = "Gestion de la sécurité de l'application."
             [[params.experience.list.items]]
-            details = "Automatic documentation generation."
+            details = "Génération de documentation automatique."
         
         [[params.experience.list]]
-        title = "R&D Developer in Robotics"
-        dates = "June 2017 - August 2019"
+        title = "Développeur R&D en Robotique"
+        dates = "Juin 2017 - août 2019"
         company = "Teamnet"
-        details = "Technical Environment: Java Spring, Linux, MYSQL, Git, Jenkins, Sonar"
+        details = "Environnement technique: Java Spring, Linux, MYSQL, Git, Jenkins, Sonar"
         [[params.experience.list.items]]
-        details = "Creation of a linguistic Chatbot."
+        details = "Création d'un Chatbot linguistique."
         [[params.experience.list.items]]
-        details = "Development of the back-end (Api, program, database...)."
+        details = "Développement du back-end (Api, programme, BDD...)."
         [[params.experience.list.items]]
-        details = "Setting up Docker."
+        details = "Mise en place de Docker."
         [[params.experience.list.items]]
-        details = "Database management."
+        details = "Gestion de la base de données."
+
 
 
     [params.information]
@@ -234,13 +237,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         style = "fab"
         icon = "fa-github-square"
         url = "https://github.com/Neffros"
-	    title = "Github - Neffros"
+        title = "Github - Neffros"
     [[params.social.list]]
         style = "fab"
         icon = "fa-linkedin"
         url = "https://www.linkedin.com/in/lior-diler-b32b7a149/"
         title = "Linkedin - Lior DILER"
-	
+    	
 
 
 
