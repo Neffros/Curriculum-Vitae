@@ -6,11 +6,6 @@ title = ""
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
-
-
-
-
-
 [params]
     author = ""
     description = ""
@@ -101,20 +96,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "Maquillage SFX"
+        name = "Musique"
         [[params.interests.list]]
-        name = "Animatronics"
+        name = "Voyages"
         [[params.interests.list]]
-        name = "Modélisation 3D"
-        [[params.interests.list]]
-        name = "Jeux en réalité virtuelle"
-	    [[params.interests.list]]
-        name = "Lecture en version originale"
+        name = "Compétitions de jeux vidéos"
 
     [params.status]
         enable = true
         [[params.status.list]]
-        name = "Maquillage SFX"
+        name = "Reconnaissance de la Qualité de Travailleur Handicapé (RQTH)"
 
 
     [params.projects]
@@ -124,7 +115,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 	    tagline = "Invention du Rollback Hybrid Netcode, une amélioration pour les jeux en lignes avec une IA de machine learning. "
 
 	[[params.projects.list]]
-        title = "Création de cours sur l'immersion en Réalité Virtuelle grâce à l'audio binaural (C++, C#)"
+        title = "Création d'un cours sur l'immersion en Réalité Virtuelle grâce à l'audio binaural (C++, C#)"
 	    tagline = "Support écrit et vidéo ainsi qu'implémentation de projets en réalité virtuelle."
 
 	[[params.projects.list]]
@@ -161,14 +152,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
             [[params.experience.list.items]]
             details = "Déploiement automatique."
             [[params.experience.list.items]]
-            details = "Gestion de la sécurité de l'application"
+            details = "Gestion de la sécurité de l'application."
             [[params.experience.list.items]]
-            details = "Génération et déploiement automatique du code"
+            details = "Génération et déploiement automatique du code."
         
         [[params.experience.list]]
         title = "Développeur R&D en Robotique"
         dates = "Juin 2017 - août 2019"
         company = "Teamnet"
+        details = "Environnement technique: Java Spring, Linux, MYSQL, Git, Jenkins, Sonar"
         [[params.experience.list.items]]
         details = "Création d'un Chatbot linguistique."
         [[params.experience.list.items]]
@@ -177,8 +169,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Mise en place de Docker."
         [[params.experience.list.items]]
         details = "Gestion de la base de données."
-        [[params.experience.list.items]]
-        details = "Environnement technique: Java Spring, Linux, MYSQL, Git, Jenkins, Sonar"
 
 
 
@@ -189,15 +179,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
 	[[params.information.list]]
         title = "Compétences Techniques"
         [[params.information.list.items]]
-        details = "Langages : C, C#, C++, Java, Javascript, Python, Android, HTML, CSS..."
+        details = "Langages : C#, C++, C, Java, Javascript, Python, Android..."
         [[params.information.list.items]]
-        details = "Base de données : MySQL, MongoDB"
+        details = "Base de données : SQL, MongoDB"
         [[params.information.list.items]]
         details = "Systèmes : Linux, Windows, Android, MacOs"
 	    [[params.information.list.items]]
-        details = "IDE et Frameworks : Node.js, React, Express, JetBrains, Angular, Eclipse"
+        details = "Frameworks : Node.js, React, Express, Nginx, OpenGL"
         [[params.information.list.items]]
-        details = "Outils : Docker, Github, Gitlab, Unity, Unreal Engine, Nginx"
+        details = "Outils : Docker, Github, Gitlab, Unity, Unreal Engine, Blender, Houdini"
 
 
 	#[[params.information.list]]
