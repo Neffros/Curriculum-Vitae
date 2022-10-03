@@ -1,7 +1,7 @@
 # Page settings
 
 baseURL = "http://example.org/"
-languageCode = "fr"
+languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
@@ -18,15 +18,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Lior DILER"
-        tagline = "Développeur Full Stack"
+        tagline = "Full Stack Developer"
         avatar = "profile2.png"
 
     [params.summary]
         enable = true
-        text = "Au travers de mes 5 ans d’études de programmation en alternance, j’ai allié passion et travail."
-        textSecond ="Avec une grande variété d'expériences dans des domaines divers tel que le développement backend, frontend et le développement de jeux vidéos, j'ai acquis les compétences pour m'adapter et apprendre des nouvelles technologies."
-
-
+        #text = "From my passion, professionnal experience and studiesAcross my professionnal experiences and thanks to my 5 years of #programming school, I have found how to unite passion, work and studies. I desire to work in programming."
+        text = "My 5 years of studying and professional experience has allowed programming to become my passion."
+        textSecond = "With a wide variety of experience in different fields such as Frontend, Backend and Video Game Development, I have aquired the skill to adapt and learn new technologies."
     [params.contact]
         enable = true
         location = "Paris - France"
@@ -49,33 +48,32 @@ googleAnalytics = "UA-XXXXXXX-Y"
     title = ""
 
     [[params.skills.list.items]]
-    details = "Autonome"
+    details = "Self-motivated"
     [[params.skills.list.items]]
-    details = "Curieux"
+    details = "Curious"
     [[params.skills.list.items]]
-    details = "Sérieux"
-
+    details = "Serious"
     [[params.skills.list.items]]
-    details = "Pasionné"
+    details = "Passionate"
 
 
 
     [params.education]
         enable = true
 	[[params.education.list]]
-        degree = "Master de chef de projet logiciel et réseaux"
+        degree = "Master's degree in software and network project management"
         university = "ESGI Paris"
         dates = "2020 - 2022"
 	[[params.education.list]]
-        degree = "Bachelor de chef de projet logiciel et réseaux"
+        degree = "Bachelor's degree in software and network project management"
         university = "ESGI Paris"
         dates = "2019 - 2020"
     [[params.education.list]]
-        degree = "BTS Services Informatiques aux Oragnisations SLAM"
+        degree = "Advanced technician's diploma in IT"
         university = "CFA Insta"
         dates = "2017 - 2019"
 	[[params.education.list]]
-        degree = "Baccalauréat de Sciences et Technologie de Laboratoire"
+        degree = "High school diploma in Laboratory Sciences"
         university = "Lycée Ecole Technique Supérieur du Laboratoire"
         dates = "2016 - 2017"
 	
@@ -83,15 +81,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.languages]
         enable = true
 
-        [[params.languages.list]]
-        name = "Français"
-        level = "Langue maternelle"
-        [[params.languages.list]]
-        name = "Anglais"
-        level = "Langue maternelle"
+    [[params.languages.list]]
+        name = "French"
+        level = "Native language"
+    [[params.languages.list]]
+        name = "English"
+        level = "Native language"
 	[[params.languages.list]]
-        name = "Turc"
-        level = "Courant"
+        name = "Turkish"
+        level = "Fluent"
 
 
 
@@ -99,101 +97,100 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "Musique"
+        name = "Music"
         [[params.interests.list]]
-        name = "Voyages"
+        name = "Travelling"
         [[params.interests.list]]
-        name = "Compétitions de jeux vidéos"
+        name = "Video game competitions"
 
-    [params.status]
-        enable = true
-        [[params.status.list]]
-        name = "Reconnaissance de la Qualité de Travailleur Handicapé (RQTH)"
+    #[params.status]
+     #   enable = true
+      #  [[params.status.list]]
+       # name = "Recognized as a handicapped worker"
 
 
     [params.projects]
         enable = true
 	[[params.projects.list]]
-        title = "Contribution au concours de recherche SIGGRAPH, Rollback Hybrid Netcode (C++, C#)"
+        title = "Contribution to the SIGGRAPH research competition, Rollback Hybrid Netcode (C++, C#)"
 	    #tagline = "Invention du Rollback Hybrid Netcode, une amélioration pour les jeux en lignes avec une IA de machine learning. "
 
 	[[params.projects.list]]
-        title = "Création de cours sur l'immersion en Réalité Virtuelle grâce à l'audio binaural (C#, C)"
+        title = "Creation of courses on immersion in Virtual Reality with Binaural Audio (C#, C)"
 	    #tagline = "Support écrit et vidéo ainsi qu'implémentation de projets en réalité virtuelle."
 
 	[[params.projects.list]]
-        title = "Implémentation d'une librairie de Machine Learning (C++)"
+        title = "Implementation of a Machine Learning Library  (C++)"
         #tagline = "TODO"
 	[[params.projects.list]]
-        title = "Algorithme génétique pour Animation Procédurale (C#, Python, Unity, Blender)"
-        #tagline = "TODO"
-
-	[[params.projects.list]]
-        title = "Intelligence Artificiels pour Jeux Vidéos (C#, C++)"
+        title = "Genetic Algorithm for Procedural Animation (C#, Python, Unity, Blender)"
         #tagline = "TODO"
 
 	[[params.projects.list]]
-        title = "Applications de Traitement d'Image (C++, openCV)"
+        title = "Artificial Intelligence for Video Games (C#, C++)"
+        #tagline = "TODO"
+
+	[[params.projects.list]]
+        title = "Image Processing Applications (C++, openCV)"
 	    #tagline ="TODO"
 
     [[params.projects.list]]
-        title = "Moteur de Lancement de Rayon (C++)"
+        title = "Ray-tracing Engine (C++)"
         #tagline = "TODO"
 
     [[params.projects.list]]
-        title = "Moteur de jeux 2D (C++)"
+        title = "2D Game Engine (C++)"
 
 	[[params.projects.list]]
-        title = "Compute Shader de Génération de Particules (C#, Shader)"
+        title = "Compute Shader for Particle Generation (C#, Shader)"
 
     [[params.projects.list]]
-        title = "Développement d'un jeu de Stratégie en Temps Réel (C#, Unity)"
+        title = "Development of a Real-time Strategy Game (C#, Unity)"
 
     [[params.projects.list]]
-        title = "Développement d'un jeu de Pathfinding (C++, Unreal Engine)"
+        title = "Development of a Pathfinding Game (C++, Unreal Engine)"
 
     [[params.projects.list]]
-        title = "Génération de Courbes de Bézier (C#, Unity)"
+        title = "Generation of Bézier Curves (C#, Unity)"
 
     [[params.projects.list]]
-        title = "Rendu Procédurale (WebGL, Blender)"
+        title = "Procedural Rendering (WebGL, Blender)"
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "Développeur Fullstack"
-        dates = "Octobre 2019 - Août 2022"
+        title = "Full Stack Developer"
+        dates = "October 2019 - August 2022"
         company = "Inria"
-        details = "Environnement technique: Linux, Docker, NodeJS, React, MongoDB, Gitlab-ci, Nginx"
+        details = "Technical Environment: Linux, Docker, NodeJS, React, MongoDB, Gitlab-ci, Nginx"
 
             [[params.experience.list.items]]
-            details = "Conception de l'architecture du Logiciel"
+            details = "Software architecture design"
             [[params.experience.list.items]]
-            details = "Développement de l'application (back-end et front end)"
+            details = "Application development (Backend and Frontend)"
             [[params.experience.list.items]]
-            details = "Test unitaires pour l'application"
+            details = "Unit testing"
             [[params.experience.list.items]]
-            details = "Déploiement automatique"
+            details = "Automatic deployment"
             [[params.experience.list.items]]
-            details = "Gestion de la sécurité de l'application"
+            details = "Application security management"
             [[params.experience.list.items]]
-            details = "Génération de documentation automatique"
+            details = "Automatic documentation generation"
         
         [[params.experience.list]]
-        title = "Développeur R&D en Robotique"
-        dates = "Juin 2017 - août 2019"
+        title = "R&D Developer in Robotics"
+        dates = "June 2017 - August 2019"
         company = "Teamnet"
-        details = "Environnement technique: Java Spring, Linux, MYSQL, Git, Jenkins, Sonar"
+        details = "Technical Environment: Java Spring, Linux, MYSQL, Git, Jenkins, Sonar"
         [[params.experience.list.items]]
-        details = "Création d'un Chatbot linguistique"
+        details = "Creation of a linguistic Chatbot"
         [[params.experience.list.items]]
-        details = "Développement du back-end (API, programme, BDD...)"
+        details = "Development of the backend (API, program, database...)"
         [[params.experience.list.items]]
-        details = "Mise en place de Docker"
+        details = "Setting up Docker"
         [[params.experience.list.items]]
-        details = "Gestion de la base de données"
-
+        details = "Database management"
 
 
     [params.information]
@@ -203,15 +200,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
 	[[params.information.list]]
         title = ""
         [[params.information.list.items]]
-        details = "Langages : C#, C++, C, Java, Javascript, Python, Android"
+        details = "Languages: C#, C++, C, Java, Javascript, Python, Android"
         [[params.information.list.items]]
-        details = "Base de données : SQL, MongoDB"
+        details = "Database: SQL, MongoDB"
         [[params.information.list.items]]
-        details = "Systèmes : Linux, Windows, Android, MacOs"
+        details = "Systems: Linux, Windows, Android, MacOS"
 	    [[params.information.list.items]]
         details = "Frameworks : Node.js, React, Express, Nginx, OpenGL, Shader"
         [[params.information.list.items]]
-        details = "Outils : Docker, Github, Gitlab, Unity, Unreal Engine, Blender, Houdini"
+        details = "Tools: Docker, Github, Gitlab, Unity, Unreal Engine, Blender, Houdini"
 
 
 	#[[params.information.list]]
@@ -238,13 +235,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         style = "fab"
         icon = "fa-github-square"
         url = "https://github.com/Neffros"
-        title = "Github - Neffros"
+	    title = "Github - Neffros"
     [[params.social.list]]
         style = "fab"
         icon = "fa-linkedin"
         url = "https://www.linkedin.com/in/lior-diler-b32b7a149/"
         title = "Linkedin - Lior DILER"
-    	
+	
 
 
 
