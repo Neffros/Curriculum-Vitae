@@ -74,7 +74,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         dates = "2017 - 2019"
 	[[params.education.list]]
         degree = "High school diploma in Laboratory Sciences"
-        university = "Lycée Ecole Technique Supérieur du Laboratoire"
+        university = "Ecole Technique Supérieur du Laboratoire"
         dates = "2016 - 2017"
 	
 
@@ -113,48 +113,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 	[[params.projects.list]]
         title = "Contribution to the SIGGRAPH research competition, Rollback Hybrid Netcode (C++, C#)"
-	    #tagline = "Invention du Rollback Hybrid Netcode, une amélioration pour les jeux en lignes avec une IA de machine learning. "
-
-	[[params.projects.list]]
-        title = "Creation of courses on immersion in Virtual Reality with Binaural Audio (C#, C)"
-	    #tagline = "Support écrit et vidéo ainsi qu'implémentation de projets en réalité virtuelle."
-
-	[[params.projects.list]]
-        title = "Implementation of a Machine Learning Library  (C++)"
-        #tagline = "TODO"
-	[[params.projects.list]]
-        title = "Genetic Algorithm for Procedural Animation (C#, Python, Unity, Blender)"
-        #tagline = "TODO"
-
-	[[params.projects.list]]
-        title = "Artificial Intelligence for Video Games (C#, C++)"
-        #tagline = "TODO"
-
-	[[params.projects.list]]
-        title = "Image Processing Applications (C++, openCV)"
-	    #tagline ="TODO"
-
-    [[params.projects.list]]
-        title = "Ray-tracing Engine (C++)"
-        #tagline = "TODO"
-
-    [[params.projects.list]]
-        title = "2D Game Engine (C++)"
-
-	[[params.projects.list]]
-        title = "Compute Shader for Particle Generation (C#, Shader)"
-
-    [[params.projects.list]]
-        title = "Development of a Real-time Strategy Game (C#, Unity)"
-
-    [[params.projects.list]]
-        title = "Development of a Pathfinding Game (C++, Unreal Engine)"
-
-    [[params.projects.list]]
-        title = "Generation of Bézier Curves (C#, Unity)"
-
-    [[params.projects.list]]
-        title = "Procedural Rendering (WebGL, Blender)"
+	    tagline = "Creation of a library to improve online network for videogames using GGPO to do rollbacks"
+	    tagline = "Innovation, improvement on whats existent with effectively net positive"
+	    tagline = "Using ggpo so that people that use it can use our library to improve their netcode"
+	    tagline = "creation of an AI that predicts player inputs would do using a self made machine learning library"
+	    tagline = "conception of the architcture so that its non opionated"
+	    tagline = "conception of the architcture so that its accessible vs performance"
+	    [[params.projects.list]]
+        title = "Another experience?"
+        tagline = "content"
 
     [params.experience]
         enable = true
@@ -163,52 +130,58 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Full Stack Developer"
         dates = "October 2019 - August 2022"
         company = "Inria"
-        details = "Technical Environment: Linux, Docker, NodeJS, React, MongoDB, Gitlab-ci, Nginx"
-
+        details = "Technical Environment: Linux, Docker, Node.js, React, MongoDB, Gitlab-ci, Nginx"
             [[params.experience.list.items]]
-            details = "Software architecture design"
+            details = "In charge of the modelisation and creation of a Research and Development project called Universal Social Network Bus from scratch."
             [[params.experience.list.items]]
-            details = "Application development (Backend and Frontend)"
+            details = "Designed the structure of a multi social media messaging system"
             [[params.experience.list.items]]
-            details = "Unit testing"
+            details = "Implemented the website, messaging across social medias and database management"
             [[params.experience.list.items]]
-            details = "Automatic deployment"
+            details = "Automated unit testing and deployment from staging to production"
             [[params.experience.list.items]]
-            details = "Application security management"
+            details = "Technology and design choices"
             [[params.experience.list.items]]
-            details = "Automatic documentation generation"
+            details = "autonomous, deadlines"
+            [[params.experience.list.items]]
+            details = "Wrote and automated documentation generation"
         
         [[params.experience.list]]
         title = "R&D Developer in Robotics"
         dates = "June 2017 - August 2019"
         company = "Teamnet"
-        details = "Technical Environment: Java Spring, Linux, MYSQL, Git, Jenkins, Sonar"
+        details = "Technical Environment: Java Spring, Linux, MYSQL, Git, Jenkins, SonarQube"
         [[params.experience.list.items]]
         details = "Creation of a linguistic Chatbot"
         [[params.experience.list.items]]
-        details = "Development of the backend (API, program, database...)"
+        details = "Development of the backend (API REST, program, database...)"
         [[params.experience.list.items]]
         details = "Setting up Docker"
+		[[params.experience.list.items]]
+		details = "Work in scrum orga"
+		[[params.experience.list.items]]
+		details = "Worked with a linguiste to conceive a Chatbot for robots aimed to help elderly people"
+		[[params.experience.list.items]]
+        details = "Verified the code quality with sonarCube and made it release stable with jenkins"
         [[params.experience.list.items]]
-        details = "Database management"
+        details = "Research, benchmarking and developpement on robot features"
 
 
     [params.information]
         enable = true
-        [[params.information.list]]
 
 	[[params.information.list]]
         title = ""
         [[params.information.list.items]]
-        details = "Languages: C#, C++, C, Java, Javascript, Python, Android"
+        details = "Languages: C#, C++, C, Java, Javascript, Python, Kotlin"
+        hidden = ", Spring, Machine learning, Deep learning"
         [[params.information.list.items]]
-        details = "Database: SQL, MongoDB"
-        [[params.information.list.items]]
-        details = "Systems: Linux, Windows, Android, MacOS"
+        details = "Database: MySQL, MongoDB"
+        hidden = ", Artificial Intelligence, Algorithm"
 	    [[params.information.list.items]]
-        details = "Frameworks : Node.js, React, Express, Nginx, OpenGL, Shader"
+        details = "Frameworks : Node.js, React, Nginx"
         [[params.information.list.items]]
-        details = "Tools: Docker, Github, Gitlab, Unity, Unreal Engine, Blender, Houdini"
+        details = "Tools: Docker, Git, JetBrains, Visual Studio"
 
 
 	#[[params.information.list]]
