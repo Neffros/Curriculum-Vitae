@@ -112,16 +112,23 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.projects]
         enable = true
 	[[params.projects.list]]
-        title = "Contribution to the SIGGRAPH research competition, Rollback Hybrid Netcode (C++, C#)"
-	    tagline = "Creation of a library to improve online network for videogames using GGPO to do rollbacks"
-	    tagline = "Innovation, improvement on whats existent with effectively net positive"
-	    tagline = "Using ggpo so that people that use it can use our library to improve their netcode"
-	    tagline = "creation of an AI that predicts player inputs would do using a self made machine learning library"
-	    tagline = "conception of the architcture so that its non opionated"
-	    tagline = "conception of the architcture so that its accessible vs performance"
-	    [[params.projects.list]]
-        title = "Another experience?"
-        tagline = "content"
+		#TODO: add a technical experience field like in professional projects
+        title = "Participation at the SIGGRAPH conference"
+        details = "Technical Environnement: C# , C++, Python, Unity, Jupiter-notebook, Tensorflow, GGPO"
+        context = "Creation of an open source library called Rollback Hybrid Netcode to improve upon the current most successful multiplayer connection method for videogames."
+        dates = "October 2021 - Now"
+        	[[params.projects.list.items]]
+                    details = "Conception of the non opinionated architecture of the library, giving developers endpoints to modify its behavior."
+            [[params.projects.list.items]]
+                    details = "Implemented different approaches to let the developer choose if it is more accessible or performant"
+            [[params.projects.list.items]]
+                    details = "creation of a custom modulable C++ machine learning library"
+            [[params.projects.list.items]]
+                    details = "creation of an AI that predicts player inputs during an online game"
+            [[params.projects.list.items]]
+                    details = "creating and analysing datasets on Open Sources games to train the AI"
+            [[params.projects.list.items]]
+                    details = "Creation of a library to improve online network for videogames using GGPO so that they easily implement our solution"
 
     [params.experience]
         enable = true
