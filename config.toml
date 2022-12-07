@@ -115,20 +115,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
 		#TODO: add a technical experience field like in professional projects
         title = "Participation at the SIGGRAPH conference"
         details = "Technical Environnement: C# , C++, Python, Unity, Jupiter-notebook, Tensorflow, GGPO"
-        context = "Creation of an open source library called Rollback Hybrid Netcode to improve upon the current most successful multiplayer connection method for videogames."
+        context = "Creation and presentation of an open source library called Rollback Hybrid Netcode at the SIGGRAPH research convention. Designed to improve upon the current most successful multiplayer connection method for videogames."
         dates = "October 2021 - Now"
         	[[params.projects.list.items]]
-                    details = "Conception of the non opinionated architecture of the library, giving developers endpoints to modify its behavior."
+                    details = "Conceptualizing a non opinionated architecture for the library, giving developers endpoints to modify its behavior"
             [[params.projects.list.items]]
-                    details = "Implemented different approaches to let the developer choose if it is more accessible or performant"
+                    details = "Implementing different approaches to let the developer choose if it is more accessible or performant"
             [[params.projects.list.items]]
-                    details = "creation of a custom modulable C++ machine learning library"
+                    details = "Developing a custom modulable C++ machine learning library"
             [[params.projects.list.items]]
-                    details = "creation of an AI that predicts player inputs during an online game"
+                    details = "Creating an AI that predicts player inputs during an online game"
             [[params.projects.list.items]]
-                    details = "creating and analysing datasets on Open Sources games to train the AI"
+                    details = "Making and analysing datasets on Open Source games to train the machine learning models"
             [[params.projects.list.items]]
-                    details = "Creation of a library to improve online network for videogames using GGPO so that they easily implement our solution"
+                    details = "Concepting the library on top of the most popular online network library for videogames (GGPO) so that developers can easily replace it with our solution"
 
     [params.experience]
         enable = true
