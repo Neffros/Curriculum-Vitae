@@ -118,17 +118,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         context = "Creation and presentation of an open source library called Rollback Hybrid Netcode at the SIGGRAPH research convention. Designed to improve upon the current most successful multiplayer connection method for videogames."
         dates = "October 2021 - Now"
         	[[params.projects.list.items]]
-                    details = "Conceptualizing a non opinionated architecture for the library, giving developers endpoints to modify its behavior"
+                    details = "Conceptualized a non opinionated architecture for the library, giving developers endpoints to modify its behavior"
             [[params.projects.list.items]]
-                    details = "Implementing different approaches to let the developer choose if it is more accessible or performant"
+                    details = "Implemented different approaches to let the developer choose if it is more accessible or performant"
             [[params.projects.list.items]]
-                    details = "Developing a custom modulable C++ machine learning library"
+                    details = "Developed a custom modulable C++ machine learning library"
             [[params.projects.list.items]]
-                    details = "Creating an AI that predicts player inputs during an online game"
+                    details = "Created an AI that predicts player inputs during an online game"
             [[params.projects.list.items]]
-                    details = "Making and analysing datasets on Open Source games to train the machine learning models"
+                    details = "Made and analysed datasets on Open Source games to train the machine learning models"
             [[params.projects.list.items]]
-                    details = "Concepting the library on top of the most popular online network library for videogames (GGPO) so that developers can easily replace it with our solution"
+                    details = "Built the library on top of the most popular online network library for videogames (GGPO) so that developers can easily replace it with our solution"
 
     [params.experience]
         enable = true
@@ -140,44 +140,41 @@ googleAnalytics = "UA-XXXXXXX-Y"
         context = "Creation in autonomy of a network platform called Socialbus, letting users communicate in chat groups using their favorite messaging application."
         details = "Technical Environment: Linux, Docker, Node.js, React, MongoDB, Gitlab-ci, Nginx"
             [[params.experience.list.items]]
-            details = "Making of a proof of concept of Socialbus before producing the final application"
+            details = "Made a proof of concept of Socialbus before producing the final application"
 			[[params.experience.list.items]]
-			details = "Designing the project architecture and choosing the technologies based on the needs"
+			details = "Designed the project architecture and choosing the technologies based on the needs"
             [[params.experience.list.items]]
-            details = "Modelizing the Multi social media messaging system from scratch"
+            details = "Modelized the Multi social media messaging system from scratch"
             [[params.experience.list.items]]
-            details = "Developing the REST API for the network platform in Node.js"
+            details = "Developed the REST API for the network platform in Node.js"
             [[params.experience.list.items]]
-            details = "Implementing the React website for users to create, join and manage groups"
+            details = "Implemented the React website for users to create, join and manage groups"
             [[params.experience.list.items]]
-            details = "Setting up unit testing automatization and CI/CD with versionning for deployment from staging to production"
+            details = "Set up unit testing automatization and CI/CD with versionning for deployment from staging to production"
             [[params.experience.list.items]]
-            details = "Dockerizing the project and deploying with Dockerhub"
+            details = "Dockerized the project and deploying with Dockerhub"
 			[[params.experience.list.items]]
-			details = "Writting documentation and automating its deployment"
+			details = "Written documentation and automating its deployment"
             [[params.experience.list.items]]
-            details = "Respecting long term and short term deadlines"
+            details = "Respected long term and short term deadlines"
 
         [[params.experience.list]]
         title = "R&D Developer in Robotics"
         dates = "June 2017 - August 2019"
         company = "Teamnet"
-        context = "Creation and presentation"
-        details = "Technical Environment: Java Spring, Linux, MYSQL, Git, Jenkins, SonarQube"
+        context = "Development in an Agile team of a linguistic Chatbot, conceived to interact and help elderly people. It will then be implemented in physical robots."
+        details = "Technical Environment: Linux, Java Spring, Python, MYSQL, Git, Jenkins, SonarQube"
         [[params.experience.list.items]]
-        details = "Creation of a linguistic Chatbot"
+        details = "Researched, benchmarked and developed on robot features (Chatbot, voice origin detection to face the human talking, intruder detection)"
         [[params.experience.list.items]]
-        details = "Development of the backend (API REST, program, database...)"
+        details = "Developed a REST API to interact with the linguistic chatbot"
         [[params.experience.list.items]]
-        details = "Setting up Docker"
+        details = "Implemented the language algorithmes used by the chatbot in Java"
 		[[params.experience.list.items]]
-		details = "Work in scrum orga"
+		details = "Worked in scrum organization with a professional linguist to make the chatbot's sentences realistic"
 		[[params.experience.list.items]]
-		details = "Worked with a linguiste to conceive a Chatbot for robots aimed to help elderly people"
-		[[params.experience.list.items]]
-        details = "Verified the code quality with sonarCube and made it release stable with jenkins"
-        [[params.experience.list.items]]
-        details = "Research, benchmarking and developpement on robot features"
+        details = "Verified the code quality with SonarCube and made released it with Jenkins and Docker"
+
 
 
     [params.information]
