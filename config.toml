@@ -25,7 +25,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         #text = "From my passion, professionnal experience and studiesAcross my professionnal experiences and thanks to my 5 years of #programming school, I have found how to unite passion, work and studies. I desire to work in programming."
         text = "My 5 years of studying and professional experience has allowed programming to become my passion."
-        textSecond = "With a wide variety of experience in different fields such as Frontend, Backend and Video Game Development, I have aquired the skill to adapt and learn new technologies."
+        textSecond = "With a wide variety of experience in different fields such as Frontend, Backend and Video Game Development, I have acquired the skill to adapt and learn new technologies."
     [params.contact]
         enable = true
         location = "Paris - France"
@@ -113,22 +113,22 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 	[[params.projects.list]]
 		#TODO: add a technical experience field like in professional projects
-        title = "Participation at the SIGGRAPH conference"
+        title = "Participation at the SIGGRAPH 2022 conference"
         details = "Technical Environnement: C# , C++, Python, Unity, Jupiter-notebook, Tensorflow, GGPO"
-        context = "Creation and presentation of an open source library called Rollback Hybrid Netcode at the SIGGRAPH research convention. Designed to improve upon the current most successful multiplayer connection method for videogames."
+        context = "Creation and presentation of an open-source library called Rollback Hybrid Netcode at the SIGGRAPH research convention. Designed to improve upon the current most successful multiplayer connection method for video games."
         dates = "October 2021 - Now"
         	[[params.projects.list.items]]
-                    details = "Conceptualized a non opinionated architecture for the library, giving developers endpoints to modify its behavior"
+                    details = "Conceptualized a unbiased architecture for the library, giving developers endpoints to modify its behavior"
             [[params.projects.list.items]]
-                    details = "Implemented different approaches to let the developer choose if it is more accessible or performant"
+                    details = "Implemented different approaches to let the developer choose if the library is more accessible or performant"
             [[params.projects.list.items]]
-                    details = "Developed a custom modulable C++ machine learning library"
+                    details = "Developed a custom modular C++ machine learning library"
             [[params.projects.list.items]]
                     details = "Created an AI that predicts player inputs during an online game"
             [[params.projects.list.items]]
-                    details = "Made and analysed datasets on Open Source games to train the machine learning models"
+                    details = "Made and analysed datasets on open-source games to train the machine learning models"
             [[params.projects.list.items]]
-                    details = "Built the library on top of the most popular online network library for videogames (GGPO) so that developers can easily replace it with our solution"
+                    details = "Built the library on top of the most popular online network library for videogames (GGPO) for straightforward replacement of the preexisting network architecture"
 
     [params.experience]
         enable = true
@@ -142,38 +142,38 @@ googleAnalytics = "UA-XXXXXXX-Y"
             [[params.experience.list.items]]
             details = "Made a proof of concept of Socialbus before producing the final application"
 			[[params.experience.list.items]]
-			details = "Designed the project architecture and choosing the technologies based on the needs"
+			details = "Designed the project architecture and chose technologies based on the project needs"
             [[params.experience.list.items]]
-            details = "Modelized the Multi social media messaging system from scratch"
+            details = "Built the Multi social media messaging system from scratch"
             [[params.experience.list.items]]
             details = "Developed the REST API for the network platform in Node.js"
             [[params.experience.list.items]]
             details = "Implemented the React website for users to create, join and manage groups"
             [[params.experience.list.items]]
-            details = "Set up unit testing automatization and CI/CD with versionning for deployment from staging to production"
+            details = "Set up unit testing automatization and CI/CD with version control for deployment from staging to production"
             [[params.experience.list.items]]
-            details = "Dockerized the project and deploying with Dockerhub"
+            details = "Docker orchestration for the project and deployment with Dockerhub"
 			[[params.experience.list.items]]
-			details = "Written documentation and automating its deployment"
+			details = "Wrote documentation and automated its deployment"
             [[params.experience.list.items]]
-            details = "Respected long term and short term deadlines"
+            details = "Respected long-term and short-term deadlines"
 
         [[params.experience.list]]
         title = "R&D Developer in Robotics"
         dates = "June 2017 - August 2019"
         company = "Teamnet"
-        context = "Development in an Agile team of a linguistic Chatbot, conceived to interact and help elderly people. It will then be implemented in physical robots."
+        context = "Development in an Agile team of a linguistic Chatbot, conceived to interact with and help elderly people, to be eventually implemented in physical robots."
         details = "Technical Environment: Linux, Java Spring, Python, MYSQL, Git, Jenkins, SonarQube"
         [[params.experience.list.items]]
-        details = "Researched, benchmarked and developed on robot features (Chatbot, voice origin detection to face the human talking, intruder detection)"
+        details = "Researched, benchmarked and developed robot features (Chatbot, human voice spatial localization, intruder detection)"
         [[params.experience.list.items]]
         details = "Developed a REST API to interact with the linguistic chatbot"
         [[params.experience.list.items]]
-        details = "Implemented the language algorithmes used by the chatbot in Java"
+        details = "Implemented the language algorithms used by the chatbot in Java"
 		[[params.experience.list.items]]
-		details = "Worked in scrum organization with a professional linguist to make the chatbot's sentences realistic"
+		details = "Worked directly with a professional linguist on scrum organization to make the chatbot's sentences more realistic"
 		[[params.experience.list.items]]
-        details = "Verified the code quality with SonarCube and made released it with Jenkins and Docker"
+        details = "Verified the code quality with SonarCube and released it with Jenkins and Docker"
 
 
 
@@ -192,23 +192,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Frameworks : Node.js, React, Nginx"
         [[params.information.list.items]]
         details = "Tools: Docker, Git, JetBrains, Visual Studio"
-
-
-	#[[params.information.list]]
-        #title = "Participation à la gestion de projets informatiques en alternance chez RTE"
-	#details = "Septembre 2017 - août 2019"
-
-	#[[params.information.list.items]]
-        #details = "En contrat d'alternance pour 2 ans en vue d'un BTS SIO (Services Informatiques aux Organisations) au sein du pôle 'Système d'information des Achats' de RTE."
-	#[[params.information.list.items]]
-	#details = "Référente GCP module SAP et valideuse achat pour le référentiel fournisseur de RTE."
-	#[[params.information.list.items]]
-	#details = "Gestion des évolutions GCP selon les besoins utilisateurs."
-	#[[params.information.list.items]]
-	#details = "Administratrice des outils du SI achats de la Direction des achats et en charge des habilitations sur les différentes applications."
-	#[[params.information.list.items]]
-	#details = "Automatisation de processus grâce à Visual Basic. Mise en place de documentation utilisateur."
-
 
 
     [params.social]
